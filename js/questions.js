@@ -12,10 +12,10 @@ var data =
 			},
 			{
 				"question": "Most common cause of a chronic slightly productive cough in the adult population is:",
-				"option1": "a.	Asthma",
-				"option2": "b.	Chronic bronchial inflammation",
-				"option3": "c.	Heart failure",
-				"option4": "d.	None of the above",
+				"option1": "Asthma",
+				"option2": "Chronic bronchial inflammation",
+				"option3": "Heart failure",
+				"option4": "None of the above",
 				"answer": 2
 			},
 			{
