@@ -137,8 +137,8 @@ body .center a
 .navbar>img
 {
 	margin: 10px 10px;
-	width : 45px;
-	height: 45px;
+	width : 260px;
+	height: 60px;
 	float: left;
 }
 .navbar p
@@ -515,7 +515,7 @@ body .center a
 }
 #question
 {
-	font-size: 30px;
+	font-size: 25px;
 	color: white;
 }
 .correct
@@ -885,5 +885,7 @@ meter::-webkit-meter-optimum-value {
 	background-color: #e74c3c;	
 	border-radius: 17px;
 }
+
+
 /*---------------------------------------------------------------*/
 

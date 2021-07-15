@@ -106,7 +106,7 @@ function randomGen(m) {
 
 function quizInit() {
 	var s, j;
-	for (s = 0; s < 15; s++) {
+	for (s = 0; s < 5; s++) {
 		j = randomGen(data[i].length);
 		sQuestions.enqueue(data[i][j]);
 	}
@@ -114,7 +114,7 @@ function quizInit() {
 
 function updateQuestions() {
 	$("#qNo").html("");
-	$("#qNo").html(15 - sQuestions.size());
+	$("#qNo").html(5 - sQuestions.size());
 	$("#question").html("");
 	$("#question").html(cQuestion.question);
 	$("#option1").html("");
