@@ -328,7 +328,7 @@ function setPercentage(percent) {
 	}
 	$('.percentBar').circleProgress({
 		value: percent,
-		size: '250',
+		size: '100',
 		startAngle: -1.57079633,
 		fill: {
 			color: '#f1c40f'
@@ -556,7 +556,7 @@ function showResults() {
 			break;
 
 		case 6:
-			$("#commentLine").html("I think you are not concentrated.");
+			$("#commentLine").html("I think you are not concentrating.");
 			break;
 
 		case 7:
@@ -584,11 +584,11 @@ function showResults() {
 			break;
 
 		case 13:
-			$("#commentLine").html("Brilliant Score! You are having a smart brain!");
+			$("#commentLine").html("Brilliant score! You are smart!");
 			break;
 
 		case 14:
-			$("#commentLine").html("Awesome! You are a master in Data Structures I think.");
+			$("#commentLine").html("Awesome! I think you are a master");
 			break;
 
 		case 15:
@@ -605,7 +605,7 @@ function setStatsPercentage() {
 	}
 	$('.sPercentBar').circleProgress({
 		value: percent,
-		size: '250',
+		size: '100',
 		startAngle: -1.57079633,
 		fill: {
 			color: '#f1c40f'
@@ -670,7 +670,7 @@ function reset() {
 	eTimeID = undefined;
 	interval = undefined;
 	removeClasses();
-	time = 10;
+	time = 15;
 	timer(0, 0);
 }
 
