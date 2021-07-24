@@ -532,67 +532,13 @@ function showResults() {
 	comment = Math.floor(comment / 25);
 	switch (comment) {
 		case 0:
-			$("#commentLine").html("Ohh No!! I don't like these type of scores.");
+			("Thank you for you valuable time");
 			break;
+
+		
 
 		case 1:
-			$("#commentLine").html("This is really bad. Think before you answer.");
-			break;
-
-		case 2:
-			$("#commentLine").html("Negative! I never expected this from you.");
-			break;
-
-		case 3:
-			$("#commentLine").html("Uff, Really bad score but not a big deal you can score more.");
-			break;
-
-		case 4:
-			$("#commentLine").html("Study hard, Better luck next time!");
-			break;
-
-		case 5:
-			$("#commentLine").html("Not a good score, but don't worry you can improve.");
-			break;
-
-		case 6:
-			$("#commentLine").html("I think you are not concentrating.");
-			break;
-
-		case 7:
-			$("#commentLine").html("Good, But I know you can score better.");
-			break;
-
-		case 8:
-			$("#commentLine").html("Nice Score! Don't repeat the mistakes from the next time.");
-			break;
-
-		case 9:
-			$("#commentLine").html("Very Good! Smart Answers! Avoid the mistakes from next time.");
-			break;
-
-		case 10:
-			$("#commentLine").html("Great Buddy! Keep it Up!");
-			break;
-
-		case 11:
-			$("#commentLine").html("Extraordinary! Now try other topics.");
-			break;
-
-		case 12:
-			$("#commentLine").html("Excellent! You are the best!");
-			break;
-
-		case 13:
-			$("#commentLine").html("Brilliant score! You are smart!");
-			break;
-
-		case 14:
-			$("#commentLine").html("Awesome! I think you are a master");
-			break;
-
-		case 15:
-			$("#commentLine").html("Unbelievable, I think no one can beat you!");
+			("Congratulations!!!");
 			break;
 	}
 }

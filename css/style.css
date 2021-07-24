@@ -289,16 +289,16 @@ body .center a
 	padding-top: 20px;
 	padding-bottom: 20px;	
 }
- .userWelcome .userWel
-{
+ /* .userWelcome .userWel */
+/* {
 	width: 100vw;
 	font-size: 80px;
 	text-align: center;
 	padding-top: 100px;
 	padding-bottom: 10px;
 	padding-left: 0px;
-}
-.userName
+} */
+/* .userName
 {
 	text-align: center;
 	width: 90%;
@@ -310,7 +310,7 @@ body .center a
 	overflow: hidden;
 	white-space: nowrap;
 	margin-bottom: 20px;
-}
+} */
 .info
 {
 	background-color: #0e529f;
@@ -707,11 +707,11 @@ body .center a
 {
 	background-color: #0e7b3e;
 }
-.percentage
+/* .percentage
 {
 	background-color: #0e7b3e;
 	height: 400px;
-}
+} */
 .percentBar
 {
 	width: 250px;

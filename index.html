@@ -57,14 +57,16 @@
 			<p class="userName" id="userN">User</p>
 		</div>
 		<div class="info">
-			<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; GP Gaming Quiz is an Interactive Quiz App for
+			<!-- <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; GP Gaming Quiz is an Interactive Quiz App for
 				Testing your Knowledge. You will have a bunch of exciting
 				questions! <br><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Each Quiz will
 				have 5 questions and you will have only 15 seconds to answer each question. Each question carries 20
 				points and a wrong answer will have negative marking of 5 points. Are you ready to play? Click on start
-				button<br><br></p>
+				button<br><br></p> -->
 			<a href="#categories" data-transition="slide">
+				<a href="#questionTemplate" onClick="setI(0)">
 				<div class="start">Start <i class="fa fa-caret-right"></i></div>
+				</a>
 			</a>
 		</div>
 	</div>
@@ -149,12 +151,12 @@
 		</div>
 		<div class="percentage">
 			<div class="percentBar">
-				<p id="percent">0%</p>
+				<!-- <p id="percent">0%</p> -->
 			</div>
 		</div>
 		<div class="comment">
 			<p class="uScore">Your Score: <span id="userScore">0</span></p>
-			<p id="commentLine">This is the Comment line for the User</p>
+			<p id="commentLine">Thank You for you valuable time</p>
 			<a href="#questionTemplate" onClick="restartQuiz();" data-transition="fade">
 				<div class="rButtons">Restart <i class="fa fa-chevron-right"></i></div>
 			</a>
