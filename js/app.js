@@ -64,7 +64,7 @@ function setI(temp) {
 	i = temp;
 	$("#ready").addClass("ui-page-active");
 	$("#ready").css("opacity", "1").css("display", "block");
-	setTimeout(function () { $("#ready").fadeOut("fast", function () { $("#ready").removeClass("ui-page-active"); $("#ready").css("display", "none"); }) }, 500);
+	setTimeout(function () { $("#ready").fadeOut("fast", function () { $("#ready").removeClass("ui-page-active"); $("#ready").css("display", "none"); }) }, 1000);
 	startQuiz();
 }
 
