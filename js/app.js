@@ -4,7 +4,7 @@ $(document).ready(function () {
 	$(".menu").click(function () {
 		clearTimeout(timeID);
 		$(".more").fadeToggle("fast");
-		timeID = setTimeout(function () { $(".more").fadeOut("fast"); }, 3000);
+		timeID = setTimeout(function () { $(".more").fadeOut("fast"); }, 1000);
 	});
 	$(".more").click(function () {
 		$(".more").fadeOut("fast");
@@ -64,7 +64,7 @@ function setI(temp) {
 	i = temp;
 	$("#ready").addClass("ui-page-active");
 	$("#ready").css("opacity", "1").css("display", "block");
-	setTimeout(function () { $("#ready").fadeOut("fast", function () { $("#ready").removeClass("ui-page-active"); $("#ready").css("display", "none"); }) }, 4000);
+	setTimeout(function () { $("#ready").fadeOut("fast", function () { $("#ready").removeClass("ui-page-active"); $("#ready").css("display", "none"); }) }, 500);
 	startQuiz();
 }
 
