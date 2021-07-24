@@ -4,7 +4,7 @@ $(document).ready(function () {
 	$(".menu").click(function () {
 		clearTimeout(timeID);
 		$(".more").fadeToggle("fast");
-		timeID = setTimeout(function () { $(".more").fadeOut("fast"); }, 1000);
+		timeID = setTimeout(function () { $(".more").fadeOut("fast"); }, 500);
 	});
 	$(".more").click(function () {
 		$(".more").fadeOut("fast");
