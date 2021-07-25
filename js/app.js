@@ -316,8 +316,8 @@ function setScore(option) {
 				$("#four").addClass("wrong");
 				break;
 		}
-		score = score - 5;
-		$("#score").html(score);
+		// score = score - 5;
+		// $("#score").html(score);
 	}
 }
 
@@ -616,7 +616,7 @@ function reset() {
 	eTimeID = undefined;
 	interval = undefined;
 	removeClasses();
-	time = 15;
+	time = 10;
 	timer(0, 0);
 }
 
